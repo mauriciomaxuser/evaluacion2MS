@@ -42,7 +42,9 @@
                     <td>{{ $pilotoTemporal->longitud2}}</td>
                     <td>{{ $pilotoTemporal->hora2}}</td>
 
-                    
+                    <td>{{ $pilotoTemporal->latitud3}}</td>
+                    <td>{{ $pilotoTemporal->longitud3}}</td>
+                    <td>{{ $pilotoTemporal->hora3}}</td>
                    <td>
                         <a href=" " class="btn btn-warning btn-sm" title="Editar">
                             <i class="fa fa-pen"></i>
