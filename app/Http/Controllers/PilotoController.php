@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Piloto;
 
 class PilotoController extends Controller
 {
@@ -11,6 +12,11 @@ class PilotoController extends Controller
      */
     public function index()
     {
+        //consulta clientes a la bdd
+        $pilotos=Piloto::all();
+        //renderizar la vista
+        return view('pilotos.index',compact('pilotos'));
+
         //
     }
 
@@ -19,6 +25,7 @@ class PilotoController extends Controller
      */
     public function create()
     {
+        
         //
     }
 

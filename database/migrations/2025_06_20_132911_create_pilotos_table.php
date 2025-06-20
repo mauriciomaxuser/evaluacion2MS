@@ -14,6 +14,20 @@ return new class extends Migration
         Schema::create('pilotos', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->string("cedula");
+            $table->string("nombre");
+            $table->double("latitud1");
+            $table->double("longitud1");
+            $table->double("hora1");
+
+            $table->double("latitud2");
+            $table->double("longitud2");
+            $table->double("hora2");
+
+            $table->double("latitud3");
+            $table->double("longitud3");
+            $table->double("hora3");
+
         });
     }
 
