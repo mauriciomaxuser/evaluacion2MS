@@ -64,15 +64,7 @@
             placeholder="Ingrese la hora"
             class="form-control"> <br>
             <div class="row">
-                <div class="col-md-5">
-                    <label for=""><b>COORDENADA N° 3</b></label> <br>
-                    <label for=""><b>Latitud:</b></label><br>
-                    <input type="number" name="latitud3" id="latitud3"
-                    class="form-control" readonly placeholder="Seleccione ..."><br>
-                    <label for=""><b>Longitud:</b></label><br>
-                    <input type="number" name="longitud3" id="longitud3"
-                    class="form-control" readonly placeholder="Seleccione ...">
-                </div>
+                
                 <div class="col-md-7">
                     <div id="mapa3" style="height:180px; 
                     width:100%; border:2px solid black;"></div>
