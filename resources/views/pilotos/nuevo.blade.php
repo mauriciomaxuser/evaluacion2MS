@@ -8,17 +8,7 @@
         <form action="{{ route('pilotos.store') }}" method="POST">
     @csrf
 
-            <h3><b>Registrar Nuevo Piloto</b></h3>
-            <hr>
-            <label for=""><b>Cedula:</b> </label> <br>
-            <input type="number" name="cedula"
-               id="cedula" placeholder="Ingrese ..."
-               required class="form-control"> <br> 
-
-            <label for=""><b>Nombre:</b></label>        
-            <input type="text" name="nombre" id="nombre"
-            placeholder="Ingrese el nombre"
-            class="form-control"> <br>
+            
 
             
 
