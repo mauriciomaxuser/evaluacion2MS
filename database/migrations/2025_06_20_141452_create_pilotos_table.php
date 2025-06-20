@@ -18,15 +18,15 @@ return new class extends Migration
             $table->string("nombre");
             $table->double("latitud1");
             $table->double("longitud1");
-            $table->double("hora1");
+            $table->string("hora1");
 
             $table->double("latitud2");
             $table->double("longitud2");
-            $table->double("hora2");
+            $table->string("hora2");
 
             $table->double("latitud3");
             $table->double("longitud3");
-            $table->double("hora3");
+            $table->string("hora3");
 
         });
     }
